@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="https://github.com/kyoto44" name="kyoto44"/>
+	<remote fetch="https://github.com/WJXXBSH" name="WJXXBSH"/>
+	<remote fetch="https://github.com/xiaomi-classic-dev" name="xiaomi-dev"/>
+
+	<!-- Aries(Mi2S) !-->
+	<project name="device_xiaomi_aries" path="device/xiaomi/aries" remote="kyoto44" revision="havoc-ten" />
+	<project name="device_xiaomi_msm8960-common" path="device/xiaomi/msm8960-common" remote="kyoto44" revision="havoc-ten" />
+	<project name="android_vendor_xiaomi_aries" path="vendor/xiaomi/aries" remote="xiaomi-dev" revision="mkq" />
+	<project name="android_vendor_xiaomi_msm8960-common" path="vendor/xiaomi/msm8960-common" remote="xiaomi-dev" revision="mkq" />
+	<project name="android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="kyoto44" revision="havoc-ten" />
+
+
+</manifest>
