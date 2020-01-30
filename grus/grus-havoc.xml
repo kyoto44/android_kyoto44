@@ -5,8 +5,9 @@
 	<remote fetch="https://github.com/DevelopedInside" name="devinside"/>
 
 	<!-- Grus (Mi9 SE) !-->
-	<project name="device_xiaomi_grus" path="device/xiaomi/grus" remote="kyoto44" revision="havoc-ten" />
-	<project name="proprietary_vendor_xiaomi_grus" path="vendor/xiaomi/grus" remote="devinside" revision="master" />
+	<project name="device_xiaomi_grus" path="device/xiaomi/grus" remote="kyoto44" revision="ten" />
+	<project name="device_xiaomi_sdm710-common" path="device/xiaomi/sdm710-common" remote="kyoto44" revision="ten" />
+	<project name="vendor_xiaomi" path="vendor/xiaomi" remote="kyoto44" revision="ten" />
 	<project name="kernel_xiaomi_sdm710" path="kernel/xiaomi/sdm710" remote="kudproject" revision="ten" />
 
 </manifest>
