@@ -11,5 +11,5 @@ curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://
 ```
 Grus
 
-curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/kyoto44/android_kyoto44/grus/libra-grus.xml 
+curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/kyoto44/android_kyoto44/grus/grus-havoc.xml 
 ```
