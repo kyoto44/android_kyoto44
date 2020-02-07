@@ -7,7 +7,7 @@
 	<!-- Libra (Mi4C) !-->
 	<project name="device_xiaomi_libra" path="device/xiaomi/libra" remote="kyoto44" revision="derpfest" />
 	<project name="device_xiaomi_msm8994-common" path="device/xiaomi/msm8994-common" remote="kyoto44" revision="derpfest" />
-	<project name="vendor_xiaomi_libra" path="vendor/xiaomi/libra" remote="kyoto44" revision="ten" />
+	<project name="vendor_xiaomi_libra" path="vendor/xiaomi/libra" remote="kyoto44" revision="lineage-16.0" />
 	<project name="android_kernel_xiaomi_libra" path="kernel/xiaomi/libra" remote="WJXXBSH" revision="master" />
 
 </manifest>

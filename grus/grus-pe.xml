@@ -4,7 +4,7 @@
 	<remote fetch="https://github.com/pengus77" name="pengus77"/>
 
 	<!-- Grus (Mi9 SE) !-->
-	<project name="device_xiaomi_grus" path="device/xiaomi/grus" remote="kyoto44" revision="havoc-ten" />
+	<project name="device_xiaomi_grus" path="device/xiaomi/grus" remote="kyoto44" revision="pe-ten" />
 	<project name="vendor_xiaomi_grus" path="vendor/xiaomi/grus" remote="kyoto44" revision="master" />
 	<project name="kowalski-grus" path="kernel/xiaomi/sdm710" remote="pengus77" revision="dev" />
 
