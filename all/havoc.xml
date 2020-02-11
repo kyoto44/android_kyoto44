@@ -3,6 +3,8 @@
 	<remote fetch="https://github.com/kyoto44" name="kyoto44"/>
 	<remote fetch="https://github.com/WJXXBSH" name="WJXXBSH"/>
     <remote fetch="https://github.com/pengus77" name="pengus77"/>
+	<remote fetch="https://github.com/xiaomi-classic-dev" name="xiaomi-dev"/>
+	<remote fetch="https://github.com/Aarqw12" name="loki"/>
 	
     <!-- Libra (Mi4C) !-->
 	<project name="device_xiaomi_libra" path="device/xiaomi/libra" remote="kyoto44" revision="havoc-ten" />
@@ -14,5 +16,17 @@
 	<project name="device_xiaomi_grus" path="device/xiaomi/grus" remote="kyoto44" revision="havoc-ten" />
 	<project name="vendor_xiaomi_grus" path="vendor/xiaomi/grus" remote="kyoto44" revision="master" />
 	<project name="kowalski-grus" path="kernel/xiaomi/sdm710" remote="pengus77" revision="dev" />
+
+	<!-- Aries(Mi2S) !-->
+	<project name="device_xiaomi_aries" path="device/xiaomi/aries" remote="kyoto44" revision="havoc-ten" />
+	<project name="device_xiaomi_msm8960-common" path="device/xiaomi/msm8960-common" remote="kyoto44" revision="havoc-ten" />
+	<project name="android_vendor_xiaomi_aries" path="vendor/xiaomi/aries" remote="xiaomi-dev" revision="mkq" />
+	<project name="android_vendor_xiaomi_msm8960-common" path="vendor/xiaomi/msm8960-common" remote="xiaomi-dev" revision="mkq" />
+	<project name="android_kernel_xiaomi_aries" path="kernel/xiaomi/aries" remote="kyoto44" revision="havoc-ten" />
+
+	<!-- Ugglite(Redmi Note 5A LITE) !-->
+	<project name="device_xiaomi_ugglite" path="device/xiaomi/ugglite" remote="kyoto44" revision="havoc-ten" />
+	<project name="vendor_xiaomi_ugglite" path="vendor/xiaomi/ugglite" remote="kyoto44" revision="lineage-17.0" />
+	<project name="android_kernel_xiaomi_msm8917" path="kernel/xiaomi/msm8937" remote="loki" revision="Loki" />
 
 </manifest>
