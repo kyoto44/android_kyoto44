@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="https://github.com/kyoto44" name="kyoto44"/>
+	<remote fetch="https://github.com/Aarqw12" name="loki"/>
+
+	<!-- Ugglite(Redmi Note 5A LITE) !-->
+	<project name="device_xiaomi_ugglite" path="device/xiaomi/ugglite" remote="kyoto44" revision="havoc-ten" />
+	<project name="vendor_xiaomi_ugglite" path="vendor/xiaomi/ugglite" remote="kyoto44" revision="lineage-17.0" />
+	<project name="android_kernel_xiaomi_msm8917" path="kernel/xiaomi/msm8937" remote="loki" revision="Loki" />
+
+</manifest>

@@ -12,7 +12,7 @@
 	<project name="vendor_xiaomi_libra" path="vendor/xiaomi/libra" remote="kyoto44" revision="lineage-16.0" />
 	<project name="android_kernel_xiaomi_libra" path="kernel/xiaomi/libra" remote="WJXXBSH" revision="master" />
 	
-	<!-- Grus (Mi9 SE) !-->
+	<!-- Grus (Mi9SE) !-->
 	<project name="device_xiaomi_grus" path="device/xiaomi/grus" remote="kyoto44" revision="havoc-ten" />
 	<project name="vendor_xiaomi_grus" path="vendor/xiaomi/grus" remote="kyoto44" revision="master" />
 	<project name="kowalski-grus" path="kernel/xiaomi/sdm710" remote="pengus77" revision="dev" />
