@@ -4,7 +4,7 @@ DEVICE="$1"
 
 mkdir -p /home/$USER/Android/tools
 mkdir -p /home/$USER/Android/havoc
-mkdir -p /home/$USER/Havoc/tools/google
+mkdir -p /home/$USER/Android/tools/google
 
 ANDROID_TOOLS="/home/$USER/Android/tools"
 HAVOC="/home/$USER/Android/havoc"
