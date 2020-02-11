@@ -3,19 +3,31 @@ HavocOS for Libra & Aries & Grus & Ugglite
 =======================
 
 ```
-Libra
+Libra HavocOS
 
-curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/kyoto44/android_kyoto44/master/libra/libra-havoc.xml 
+curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/kyoto44/android_kyoto44/master/libra/havoc.xml 
 ```
 
 ```
-Grus
+Grus HavocOS
 
-curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/kyoto44/android_kyoto44/master/grus/grus-havoc.xml 
+curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/kyoto44/android_kyoto44/master/grus/havoc.xml 
 ```
 
 ```
-AIO 
+Ugglite HavocOS
 
-curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/kyoto44/android_kyoto44/master/all/havoc.xml
+curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/kyoto44/android_kyoto44/master/ugglite/havoc.xml 
+```
+
+```
+Aries HavocOS
+
+curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/kyoto44/android_kyoto44/master/aries/havoc.xml 
+```
+
+```
+AIO HavocOS
+
+curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/kyoto44/android_kyoto44/master/aio/havoc.xml
 ```
