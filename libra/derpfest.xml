@@ -2,12 +2,10 @@
 <manifest>
 	<remote fetch="https://github.com/kyoto44" name="kyoto44"/>
 	<remote fetch="https://github.com/WJXXBSH" name="WJXXBSH"/>
-	<remote fetch="https://github.com/xiaomi-classic-dev" name="xiaomi-dev"/>
 
 	<!-- Libra (Mi4C) !-->
-	<project name="device_xiaomi_libra" path="device/xiaomi/libra" remote="kyoto44" revision="derpfest" />
-	<project name="device_xiaomi_msm8994-common" path="device/xiaomi/msm8994-common" remote="kyoto44" revision="derpfest" />
-	<project name="vendor_xiaomi_libra" path="vendor/xiaomi/libra" remote="kyoto44" revision="lineage-16.0" />
+	<project name="android_device_xiaomi_libra" path="device/xiaomi/libra" remote="kyoto44" revision="derpfest" />
+	<project name="android_vendor_xiaomi_libra" path="vendor/xiaomi/libra" remote="WJXXBSH" revision="lineage-16.0" />
 	<project name="android_kernel_xiaomi_libra" path="kernel/xiaomi/libra" remote="WJXXBSH" revision="master" />
 
 </manifest>
