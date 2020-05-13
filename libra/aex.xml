@@ -5,7 +5,7 @@
 
 	<!-- Libra (Mi4C) !-->
 	<project name="android_device_xiaomi_libra" path="device/xiaomi/libra" remote="kyoto44" revision="aex-7.1.2" />
-	<project name="vendor_xiaomi_libra" path="vendor/xiaomi/libra" remote="kyoto44" revision="aex-7.1.2" />
+	<project name="vendor_xiaomi_libra" path="vendor/xiaomi" remote="kyoto44" revision="aex-7.1.2" />
 	<project name="android_kernel_xiaomi_libra" path="kernel/xiaomi/libra" remote="WJXXBSH" revision="master" />
 
 </manifest>
