@@ -8,6 +8,6 @@
 	<project name="device_google_wahoo" path="device/google/wahoo" remote="kyoto44" revision="ten" />
 	<project name="device_google_walleye" path="device/google/walleye" remote="kyoto44" revision="ten" />
 	<project name="vendor_google" path="vendor/google" remote="AOSiP" revision="ten" />
-	<project name="proton_kernel_wahoo" path="kernel/google/wahoo" remote="kdrag0n" revision="master" />
+	<project name="kernel_google_wahoo" path="kernel/google/wahoo" remote="AOSiP" revision="ten" />
 
 </manifest>
