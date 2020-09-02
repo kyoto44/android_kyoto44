@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="https://github.com/kyoto44" name="kyoto44"/>
+	<remote fetch="https://github.com/kdrag0n" name="kdrag0n"/>
+    	<remote fetch="https://github.com/AOSiP-Devices" name="AOSiP"/>
+
+	<!-- Wahoo(Walleye) (Google Pixel 2) !-->
+	<project name="android_device_google_wahoo" path="device/google/wahoo" remote="kyoto44" revision="q" />
+	<project name="android_device_google_muskie" path="device/google/muskie" remote="kyoto44" revision="q" />
+	
+	<!-- Blobz -->
+  	<project name="REV3NT3CH-Devices/proprietary_android_vendor_google" path="vendor/google" remote="github" revision="q" />
+	
+	 <!-- Kernel -->
+	<project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" />
+	<project name="kernel_google_wahoo" path="kernel/google/wahoo" remote="AOSiP" revision="ten" />
+
+</manifest>
