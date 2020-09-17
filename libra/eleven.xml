@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="https://github.com/kyoto44" name="kyoto44"/>
+	<remote fetch="https://github.com/WJXXBSH" name="WJXXBSH"/>
+
+	<!-- Libra (Mi4C) !-->
+	<project name="android_device_xiaomi_libra" path="device/xiaomi/libra" remote="kyoto44" revision="eleven" />
+	<project name="android_vendor_xiaomi_libra" path="vendor/xiaomi/libra" remote="WJXXBSH" revision="lineage-16.0" />
+	<project name="android_kernel_xiaomi_libra" path="kernel/xiaomi/libra" remote="WJXXBSH" revision="master" />
+
+</manifest>
