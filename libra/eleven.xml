@@ -7,5 +7,23 @@
 	<project name="android_device_xiaomi_libra" path="device/xiaomi/libra" remote="kyoto44" revision="eleven" />
 	<project name="android_vendor_xiaomi_libra" path="vendor/xiaomi/libra" remote="WJXXBSH" revision="lineage-18.0" />
 	<project name="android_kernel_xiaomi_libra" path="kernel/xiaomi/libra" remote="WJXXBSH" revision="master" />
+	
+	 <!-- msm8994 -->
+  	<project path="hardware/qcom-caf/msm8994/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-17.1-caf-msm8994" />
+  	<project path="hardware/qcom-caf/msm8994/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-17.1-caf-msm8994" />
+  	<project path="hardware/qcom-caf/msm8994/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1-caf-msm8994" />
+	
 
+	 <!-- prebuilts -->
+	  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+	  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+	  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+	  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+	  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
+	  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+	  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+	  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+	  <remove-project name="platform/prebuilts/gdb/darwin-x86" />
+	  <remove-project name="platform/prebuilts/go/darwin-x86" /> 
+	  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 </manifest>
