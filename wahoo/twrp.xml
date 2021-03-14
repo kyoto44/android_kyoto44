@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="https://github.com/kyoto44" name="kyoto44"/>
+	<remote fetch="https://github.com/ReallySnow" name="ReallySnow"/>
+
+	<!-- Wahoo(Walleye) (Google Pixel 2) !-->
+	<project name="twrp_device_google_wahoo" path="device/google/wahoo" remote="ReallySnow" revision="android-9.0" />
+	<project name="android_device_google_muskie" path="device/google/walleye" remote="kyoto44" revision="twrp" />
+	
+	<!-- Blobz -->
+  	<project name="proprietary_vendor_google" path="vendor/google" remote="kyoto44" revision="eleven" />
+
+</manifest>
