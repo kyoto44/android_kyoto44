@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="https://github.com/kyoto44" name="kyoto44"/>
+	<remote fetch="https://github.com/PixelBoot" name="PixelBoot"/>
+
+	<!-- Wahoo(Walleye) (Google Pixel 2) !-->
+	<project name="android_device_google_wahoo" path="device/google/wahoo" remote="kyoto44" revision="twelve" />
+	<project name="android_device_google_walleye" path="device/google/walleye" remote="kyoto44" revision="twelve" />
+	
+	<!-- Blobz -->
+  	<project name="android_vendor_google" path="vendor/google" remote="PixelBoot" revision="twelve" />
+	
+	 <!-- Kernel -->
+	<project name="android_kernel_google_wahoo" path="kernel/google/wahoo" remote="PixelBoot" revision="twelve" />
+
+</manifest>
