@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote fetch="https://github.com/kyoto44" name="kyoto44"/>
+	<remote fetch="https://github.com/pjgowtham" name="pjgowtham"/>
+
+	<!-- DT RMX3360 (Realme GT Master Edition) !-->
+	<project name="android_device_oplus_RMX3360" path="device/oplus/RMX3360" remote="pjgowtham" revision="lineage-19.1" />
+	<project name="android_device_oplus_sm8350-common" path="device/oplus/sm8350-common" remote="pjgowtham" revision="lineage-19.1" />
+	
+	<!-- Blobz -->
+  	<project name="proprietary_vendor_oplus" path="vendor/oplus" remote="pjgowtham" revision="lineage-19.1" />
+	
+	 <!-- Kernel -->
+	<project name="android_kernel_oplus_sm8350" path="kernel/oplus/sm8350" remote="pjgowtham" revision="lineage-19.1-RMX3360" />
+
+    <!-- etc -->
+    <project name="android_hardware_oplus" path="hardware/oplus" remote="pjgowtham" revision="lineage-19.1" />
+
+</manifest>
